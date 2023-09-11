@@ -1,9 +1,4 @@
 /* Header */
-main .main-content {
-    width: 1000px;
-    margin: 70px auto;
-}
-
 header {
     width: 100%;
     min-height: 400px;
@@ -12,6 +7,11 @@ header {
 
 #home header {
     background: no-repeat lightgrey url(images/cliff_ocean.jpg);
+    background-size: 1500px;
+}
+
+#cliffs header {
+    background: no-repeat lightgrey url(images/forest-cliff.jpg);
     background-size: 1500px;
 }
 
@@ -86,6 +86,45 @@ main {
 
 main h1 {
     color: #9ed034;
+}
+
+.main-content {
+    width: 1000px;
+    margin: 70px auto 30px auto;
+}
+
+#cliff-pictures {
+    /* background-color: #125688; */
+    width: 1000px;
+    height: 600px;
+    margin: 20px auto 0px auto;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#cliff-pictures div {
+    width: 400px;
+    height: 232px;
+    background-color: #852B1B;
+    text-align: center;
+    color: white;
+    margin: 20px;
+    /* border: 1px solid black; */
+}
+
+#cliff-pictures img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#cliff-pictures span {
+    display: block;
+    margin: 7px 0;
 }
 
 
@@ -173,7 +212,7 @@ footer #nondisclaimer .social .fa-instagram {
 
 table {
     width: 900px;
-    margin: 4em auto 0 auto;
+    margin: 4em auto 5em auto;
 }
 
 caption {
